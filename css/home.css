@@ -32,8 +32,27 @@ ul {
   li a:hover {
     background-color: #7f8fa6;
   }
-
-
+/* home */
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 3px 3px gray;
+    margin-bottom: 10px;
+    font-family: myFirstFont;
+}
+.home1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-home1, 
+.sub-home2{
+    width: 40%;
+    height: auto;
+    margin: 5px;
+}
 
 
 footer{
