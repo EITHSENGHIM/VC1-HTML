@@ -1,5 +1,16 @@
 body{
     font-family: sans-serif;
+    
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 3px 2px gray;
+    margin-bottom: 10px;
+    font-family: myFirstFont;
+    text-decoration: underline;
 }
 *{
     margin: 0%;
