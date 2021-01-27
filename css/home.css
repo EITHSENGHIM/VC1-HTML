@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    background-image: url("https://store-images.s-microsoft.com/image/apps.58868.14403833510503142.72a67ef8-3805-4e1b-9ff0-41a3646fd28a.72151330-72d0-4d1f-91c0-02cafe1e9f4b?mode=scale&q=90&h=1080&w=1920");
     
 }
 *{
@@ -9,7 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #40739e;
+    background-color: #0d3f8fad;
     height: 100px;
 }
 ul {
@@ -37,8 +38,8 @@ ul {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    color: blue;
-    text-shadow: 3px 2px gray;
+    color: white;
+    text-shadow: 3px 1px blue;
     margin-bottom: 10px;
     font-family: myFirstFont;
     text-decoration: underline;
@@ -57,7 +58,7 @@ ul {
 }
 .home2, 
 .home3{
-    background-color: darkcyan;
+    background-color: rgba(0, 139, 139, 0.637);
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -97,13 +98,12 @@ ul {
   border: 2px solid dodgerblue;
 }
 
-/* Set a style for the submit button */
 * {box-sizing: border-box;}
 
-input[type=text], select, textarea {
+input[type=text], input[type=datetime-local], input[type=email], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(204, 204, 204, 0.719);
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -111,23 +111,39 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #4CAF50;
+input[type=submit], input[type=reset] {
+  background-color: #227093;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  width: 200px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 input[type=submit]:hover {
+    background-color: #45a049;
+  }
+input[type=reset]:hover {
   background-color: #45a049;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #95a5a67e;
   padding: 20px;
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 50%;
+}
+
+label{
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 
@@ -148,6 +164,7 @@ h2{
     width: 20%;
     color: #3742fa;
     font-weight: bold;
+    text-align: center;
 }
 
 
