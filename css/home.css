@@ -82,19 +82,21 @@ li a:hover {
 .about2{
     width: 28%;
     height: 500px;
-    background-color: #07999281;
+    background-color: #ffffff2a;
     border-radius: 0% 0% 100% 0%;
+    padding: 30px;
 }
 .about2{
     border-radius: 0% 0% 0% 100%;
 }
 .about3{
     width: 40%;
-    height: 500px;
+    height: 450px;
     background-color: #0a3d6275;
-    border-radius: 5%;
     text-align: center;
 }
+
+
 
 
 /* end about */
