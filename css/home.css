@@ -29,10 +29,14 @@ ul {
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
+    cursor: pointer;
   }
   
-  li a:hover {
-    background-color: #7f8fa6;
+  .tablink{
+    background-color: #c8d6e560;
+}
+li a:hover {
+      background-color: #c8d6e560;
   }
   h1{
     text-transform: uppercase;
@@ -46,9 +50,9 @@ ul {
 }
 /* home */
 .home1 {
-    width: 93%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .sub-home1,
 .sub-home2{
@@ -72,12 +76,13 @@ ul {
     height: auto;
     display: flex;
     justify-content: space-around;
+    margin: 10px;
 }
 .about1, 
 .about2{
     width: 28%;
     height: 500px;
-    background-color: #57606fb2;
+    background-color: #07999281;
     border-radius: 0% 0% 100% 0%;
 }
 .about2{
@@ -86,8 +91,8 @@ ul {
 .about3{
     width: 40%;
     height: 500px;
-    background-color: #3741fa77;
-    border-radius: 10%;
+    background-color: #0a3d6275;
+    border-radius: 5%;
     text-align: center;
 }
 
