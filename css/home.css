@@ -43,7 +43,7 @@ li a:hover {
     text-align: center;
     font-weight: bold;
     color: white;
-    text-shadow: 3px 1px blue;
+    text-shadow: 3px 1px rgb(255, 0, 0);
     margin-bottom: 10px;
     font-family: myFirstFont;
     text-decoration: underline;
