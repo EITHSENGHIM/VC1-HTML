@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
     background-image: url("https://store-images.s-microsoft.com/image/apps.58868.14403833510503142.72a67ef8-3805-4e1b-9ff0-41a3646fd28a.72151330-72d0-4d1f-91c0-02cafe1e9f4b?mode=scale&q=90&h=1080&w=1920");
-    
+    letter-spacing: 1.5px;
 }
 *{
     margin: 0%;
@@ -47,6 +47,9 @@ li a:hover, a:active {
     margin-bottom: 10px;
     font-family: myFirstFont;
     text-decoration: underline;
+}
+h1:hover {
+    font-size: 30px;
 }
 /* home */
 .home1 {
@@ -174,6 +177,13 @@ th, td {
   justify-content: center;
 
 }
+.main-world0 {
+  padding: 10px;
+  margin: 10px;
+  background-color: #2c3a476e;
+  color: white;
+  
+}
 .flip-card2 {
   background-color: transparent;
   width: 300px;
@@ -214,7 +224,6 @@ th, td {
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
-  padding-top: 100px;
 }
 .www{
   font-size: 30px;
@@ -236,6 +245,50 @@ th, td {
   font-weight: bolder;
   margin: 10px;
 }
+/* dropup in service */
+.main-world1 {
+  text-align: center;
+}
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #2c3e50fa;
+  min-width: 160px;
+  bottom: 50px;
+  z-index: 1;
+  padding: 10px;
+  color: white;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #45a049;
+}
+/* end dropup in service */
 /* end service */
 /* register */
 * {box-sizing: border-box;}
